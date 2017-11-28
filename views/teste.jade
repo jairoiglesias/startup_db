@@ -1,0 +1,30 @@
+extends layout
+
+block content
+
+  style(type="text/css").
+
+    
+  script(type="text/javascript").
+
+    $(document).ready(function(){
+
+      setTimeout(function(){
+        var promise = $.ajax({
+          url : 'generate_qrcode/augusto_viadinho'
+        })
+
+        promise.then(function(image){
+          console.log(image)
+        })
+
+
+      }, 1000)
+        
+      
+    })
+
+  div(class='container')
+    h1 Teste QRCODE
+    hr
+    canvas(id='canvas')

@@ -1,0 +1,18 @@
+{
+  "apiKey": "QVU6732QAN9JCGL4ZIKI21lNJrHDJXSbb49sIPNwpz_JO9h-M",
+  "sharedSecret": "8y8r-TQ5UXjhVROFPc6hfvLfRzcg7NmqEzc19MaW",
+  "userId": "10JXQJBXHE2EC6G1ZDCQ21hIiCOMEl4jS8deRS3y_5otw-SZE",
+  "password": "cAo0S64Q8exFY",
+  "cert": "VDPCA-SBX",
+  "key": "key_a48dd907-71d7-4dea-a334-28ee911ecd6b",
+  "vctcTestPan" : "{put your pan number from test data under consumer rules api -> register a card here}",
+  "tnsPartnerBid" : "{put your visa notification service partner bid here}",
+  "tnsCardNumbers" : "{put your visa travel notification service card account numbers here}",
+  "mlcIssuerId" : "{put your enrollments api issuer id here}",
+  "mlcDeviceId" : "{put your enrollments api device id here}",
+  "mlcClientMessageID" : "{put your enrollments api client message id here}",
+  "mlcPrimaryAccountNumber" : "{put your enrollments api primary account number here}",
+  "mlcMessageId" : "{put your locations api message id here}",
+  "checkoutCallId" : "{put your visa checkout generated callId here}",
+  "visaUrl": "https://sandbox.api.visa.com/"
+}
